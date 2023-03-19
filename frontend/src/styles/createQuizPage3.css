@@ -1,0 +1,140 @@
+.cq3Page{
+    width: 80%;
+    margin: 3rem auto;
+}
+.cq3Intro{
+    width: 100%;
+    display: flex;
+}
+.cq3IntroSec1{
+    width: 30%;
+}
+.cq3IntroImgContainer{
+    width: 17rem;
+    height: 17rem;
+    border: 2px solid var(--qFlowBg);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.cq3IntroImgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: auto;
+}
+.cq3IntroSec2{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.cq3IntroSec2 h1{
+    font-size: 2em;
+}
+.cq3IntroSec2 h4{
+    color: rgba(0, 0, 0, 0.7);
+}
+.cq3IntroSec2 h6{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0.2rem;
+}
+.cq3IntroSec2 div{
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.cq3BtnEdit{
+    padding: 1rem 1rem;
+    border: none;
+    border: 1px solid var(--qBlue);
+    color: var(--qBlue);
+    background-color: transparent;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 40%;
+}
+.cq3BtnDone{
+    padding: 1rem 1rem;
+    border: none;
+    background-color: var(--qBlue);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 40%;
+}
+.cq3BtnEdit:hover{
+    transform: scale(98%);
+}
+.cq3BtnDone:hover{
+    transform: scale(98%);
+}
+.cq3Details{
+    margin: 3rem 0;
+    background-color:rgb(246, 246, 246);
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+.cq3Details span{
+    font-weight: 600;
+}
+.cq3QuestionsSection{
+    background-color: var(--qFlowBg);
+    border-radius: 0.4rem;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+.cq3QuestionBox{
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+    padding-bottom: 0.7rem;
+    padding-top: 1rem;
+    display: flex;
+}
+.cq3-qb-qbbox{
+    width: 80%;
+}
+.cq3-qb-question{
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+
+}
+.cq3-qb-question p{
+    width: 80%;
+    font-size: 1.2rem;
+}
+.cq3-qb-pointsbox{
+    width: 20%;
+    padding: 0 1rem;
+}
+.cq3-qb-question input{
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    border: 1px solid black;
+}
+.cq3-qb-ob{
+    width: 100%;
+}
+.cq3-qb-ob-options{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin: 0.7rem 0;
+    /* width: 80%; */
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.cq3-qb-ob-options label, input[type="radio"],input[type="checkbox"]{
+    cursor: pointer;
+}

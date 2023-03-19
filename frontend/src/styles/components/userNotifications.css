@@ -1,0 +1,28 @@
+.userNotifications{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.notification{
+    width: 100%;
+    background-color: var(--qFlowBg);
+    font-size: 1.3rem;
+    padding: 1rem ;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+.notificationActive{
+    background-color: rgb(244, 244, 244);
+}
+.notificationContentLink{
+    color: var(--qBlue);
+    text-decoration: none;
+}
+.notificationEdit{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}

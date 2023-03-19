@@ -1,0 +1,106 @@
+.loginBox{
+    background-color: var(--qFlowBg);
+    width: 45%;
+    padding: 2rem 2rem;
+    margin: 2rem 2rem;
+    position: relative;
+}
+.loginHeading{
+    display: flex;
+    align-items: end;
+}
+.loginHeading h1{
+    font-family: "Snowburst One";
+    
+}
+.loginHeading span{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.btnGoogle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: all 0.2s ease-in-out;
+}
+.btnGoogle span{
+    margin-left: 0.7rem;
+}
+.btnGoogle:hover{
+    background-color: white;
+    border: 1px solid white;
+}
+.loginLine{
+    border-top: 1px solid black;
+    width: 70%;
+    margin: auto;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+.loginForm label{
+    margin-top: 2rem;
+}
+.loginForm label span{
+    color: var(--qBlue);
+}
+.loginForm input[type=email],[type=password]{
+    padding: 1rem 1rem;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    margin-top: 0.2rem;
+}
+.loginForm input[type=submit]{
+    padding: 1rem 1rem;
+    border: none;
+    background-color: var(--qBlue);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.loginForm input[type=submit]:hover{
+    transform: scale(98%);
+}
+.forgotPassword{
+    width: 80%;
+    margin: auto;
+    margin-top: 0.8rem;
+    font-size: 1rem;
+    text-align: right;
+}
+.forgotPasswordLink{
+    color: black;
+    text-decoration: none;
+}
+.forgotPasswordLink:hover{
+    color: var(--qBlue);
+}
+.loginRegister{
+    margin-top: 1rem;
+    text-align: center;
+}
+.loginRegisterLink{
+    color: var(--qBlue);
+    text-decoration: none;
+}
+.loginRegisterLink:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,6 @@
+FROM node:19
+WORKDIR /frontend
+COPY ./frontend/package*.json ./
+RUN npm install -f
+COPY ./frontend/ ./
+CMD [ "npm", "run", "start" ]

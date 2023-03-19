@@ -1,0 +1,82 @@
+.teamIntro{
+    width: 100%;
+    display: flex;
+}
+.teamIntroSec1{
+    width: 30%;
+}
+.teamIntroImgContainer{
+    width: 17rem;
+    height: 17rem;
+    border: 2px solid var(--qFlowBg);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.teamIntroImgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.teamIntroSec2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.teamIntroSec2 h1{
+    font-size: 2em;
+}
+.teamIntroSec2 h6{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0.5rem;
+}
+/* .teamIntroSec3{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+} */
+.teamIntroSec3Icon{
+    cursor: pointer;
+}
+.teamIntroSec3Box span{
+    user-select: none;
+}
+.teamDetailsOptions{
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.teamDetailsOptionsBtn{
+    font-size: 1.7rem;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 4px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+.teamMembersBox{
+    width: 100%;
+}
+.teamPageMemCard{
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.teamPageMemImg{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.teamPageMemImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.teamPageMemCard{
+    font-size: 1.2rem;
+}

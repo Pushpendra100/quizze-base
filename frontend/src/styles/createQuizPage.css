@@ -1,0 +1,128 @@
+.createQuizBox{
+    background-color: var(--qFlowBg);
+    width: 90%;
+    padding: 2rem 2rem;
+    margin: 2rem auto;
+    position: relative;
+}
+.cqHeading{
+    display: flex;
+    align-items: end;
+}
+.cqHeading h1{
+    font-family: "Snowburst One";
+    
+}
+.cqHeading span{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.cqSection{
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+}
+.cqSectionForm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* gap: 5rem; */
+    width: 100%;
+    margin: auto;
+}
+.cqSectionForm div{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.cqSectionForm div label{
+    margin-top: 2rem;
+}
+.cqSectionForm div label span{
+    color: var(--qBlue);
+}
+.cqSectionForm div input[type=email],input[type=text],input[type=time],input[type=datetime-local]{
+    width: 100%;
+    padding: 1rem 1rem;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    margin-top: 0.2rem;
+}
+.cqSectionForm input[type=submit]{
+    padding: 1rem 1rem;
+    border: none;
+    background-color: var(--qBlue);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.cqSectionForm input[type=submit]:hover{
+    transform: scale(98%);
+}
+.cqSectionForm .cqSectionFormRadioBox{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.cqSectionForm .cqSectionFormRadioBox label{
+    margin-top: 0rem;
+}
+.cqSectionForm .cqSectionFormRadioBox label span{
+    color: var(--qBlue);
+}
+
+.cqSectionForm .cqSectionFormRadioBox input[type=radio]{
+    appearance: none;
+}
+
+.cqSectionForm .cqSectionFormRadioBox input[type='radio']:after {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: -4px;
+    background-color: var(--qFlowBg);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.cqSectionForm .cqSectionFormRadioBox  input[type='radio']:checked:after {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: -4px;
+    background-color: var(--qBlue);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid rgb(0, 0, 0);
+}
+.cqSectionForm div textarea{
+    resize: none;
+    width: 60vw;
+    padding: 1rem 1rem;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    margin-top: 0.2rem;
+}
+.cqSectionForm div textarea::placeholder{
+    font-size: 1.2rem;
+}
+.cqSectionFormFinalBox{
+    width: 60vw !important;
+}

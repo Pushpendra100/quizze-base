@@ -1,0 +1,64 @@
+.userProfileContainer{
+    margin-bottom: 3rem;
+}
+.userIntro{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+.userIntroSec1{
+    width: 30%;
+}
+.userIntroImgContainer{
+    width: 17rem;
+    height: 17rem;
+    border: 2px solid var(--qFlowBg);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.userIntroImgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.userIntroSec2{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.userIntroSec2 h1{
+    font-size: 2em;
+}
+.userIntroSec2 h4{
+    color: rgba(0, 0, 0, 0.7);
+}
+.createQuizBtn{
+    padding: 1rem 1rem;
+    border: none;
+    background-color: var(--qBlue);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 40%;
+    align-self: flex-end;
+}
+.createQuizBtn:hover{
+    transform: scale(98%);
+}
+.userSecOptions{
+    display: flex;
+    gap: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.userSecOptionsBtn{
+    font-size: 1.7rem;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    border-bottom: 4px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}

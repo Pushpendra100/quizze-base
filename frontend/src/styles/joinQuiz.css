@@ -1,0 +1,112 @@
+.joinQuizBox{
+    background-color: var(--qFlowBg);
+    width: 90%;
+    padding: 2rem 2rem;
+    margin: 2rem auto;
+    position: relative;
+}
+.joinQuizHeading{
+    display: flex;
+    align-items: end;
+}
+.joinQuizHeading h1{
+    font-family: "Snowburst One";
+    
+}
+.joinQuizSection{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    /* background-color: red; */
+}
+.jqSec1{
+    flex: 1;
+    border-right: 1px solid var(--qBlue);
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+
+}
+.jq-sec1-joinTeam{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    padding: 1rem 1.5rem;
+    padding-bottom: 1.5rem;
+    transition: 0.2s ease-in-out;
+}
+.jq-sec1-joinTeam:hover{
+    box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.502);
+}
+.jq-sec1-joinTeam h1{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    user-select: none;
+}
+.jq-sec1-joinTeam input[type=text]{
+    padding: 1rem 1rem;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    margin-top: 0.2rem;
+}
+.teamJoinBtn{
+    padding: 1rem 1rem;
+    border: none;
+    background-color: var(--qBlue);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    margin-top: 1.7rem;
+}
+.teamJoinBtn:hover{
+    transform: scale(98%);
+}
+.jqSec2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.jq-sec2-joinUser{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    padding: 1rem 1.5rem;
+    padding-bottom: 1.5rem;
+    transition: 0.2s ease-in-out;
+}
+.jq-sec2-joinUser:hover{
+    box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.502);
+}
+
+.jq-sec2-joinUser h1{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    user-select: none;
+}
+.userJoinBtn{
+    padding: 1rem 1rem;
+    border: none;
+    background-color: var(--qBlue);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+}
+.userJoinBtn:hover{
+    transform: scale(98%);
+}

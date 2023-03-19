@@ -1,0 +1,23 @@
+:root{
+    --qBlue:#155E89;
+    --qAqua:#9AEADD;
+    --background:rgb(255, 255, 255);
+    --qListGray:#F3F3F3;
+    --qFlowBg:#D9D9D9;
+}
+::selection {
+    background: var(--qBlue);
+    color: white;
+}
+body{
+    background-color:var(--background) ;
+    font-size: 1.5rem;
+}
+/*
+.solidBtn:hover{
+
+}
+.blankBtn:hover{
+    
+}
+*/

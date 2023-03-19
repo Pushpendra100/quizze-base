@@ -1,0 +1,31 @@
+.pageContainer{
+    display: flex;
+    height: 100%;
+}
+.pageContainerSection{
+    width: 100%;
+    padding: 3rem 4rem;
+}
+.pageSecLine{
+    border-top: 2px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin:3rem auto;
+}
+.optionsBtnActive{
+    border-bottom: 4px solid var(--qBlue) !important;
+}
+.closeBtn{
+    position: absolute;
+    right: 1.5rem;
+    top:1.5rem;
+    cursor: pointer;
+}
+.closeBtnLink{
+    color: black;
+}
+.closeBtnLink:hover{
+    color: var(--qBlue);
+}
+.cPointer{
+    cursor: pointer;
+}

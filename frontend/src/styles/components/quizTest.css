@@ -1,0 +1,119 @@
+.quizTest{
+    width: 70vw;
+    margin: 3rem auto;
+}
+.quizTestIntro{
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+}
+.quizTestIntroSec1{
+    width: 30%;
+}
+.quizTestIntroImgContainer{
+    width: 17rem;
+    height: 17rem;
+    border: 2px solid var(--qFlowBg);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.quizTestIntroImgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: auto;
+}
+.quizTestIntroSec2{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.quizTestIntroSec2 h1{
+    font-size: 2em;
+}
+.quizTestIntroSec2 h4{
+    color: rgba(0, 0, 0, 0.7);
+}
+.quizTestIntroSec2 h6{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0.2rem;
+}
+.quizTestIntroSec2 div{
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+.quizTestBtnDone{
+    padding: 1rem 1rem;
+    border: none;
+    background-color: var(--qBlue);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 40%;
+}
+.quizTestBtnDone:hover{
+    transform: scale(98%);
+}
+.quizTestQuestionsSection{
+    background-color: var(--qFlowBg);
+    border-radius: 0.4rem;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+.quizTestQuestionBox{
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+    padding-bottom: 0.7rem;
+    padding-top: 1rem;
+    display: flex;
+}
+.qt-qb-qbbox{
+    width: 90%;
+}
+.qt-qb-question{
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+
+}
+.qt-qb-question p{
+    width: 80%;
+    font-size: 1.2rem;
+}
+.qt-qb-pointsbox{
+    width: 15%;
+    padding: 0 1rem;
+}
+.qt-qb-pointsbox span{
+    font-size: 1.1rem;
+}
+.cq3-qb-question input{
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+    border: 1px solid black;
+}
+.qt-qb-ob{
+    width: 100%;
+}
+.qt-qb-ob-options{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin: 0.7rem 0;
+    /* width: 80%; */
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+.qt-qb-ob-options label, input[type="radio"],input[type="checkbox"]{
+    cursor: pointer;
+}

@@ -1,0 +1,246 @@
+.cq2Page{
+    width: 80%;
+    margin: 3rem auto;
+}
+.cq2Intro{
+    width: 100%;
+    display: flex;
+}
+.cq2IntroSec1{
+    width: 30%;
+}
+.cq2IntroImgContainer{
+    width: 17rem;
+    height: 17rem;
+    border: 2px solid var(--qFlowBg);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.cq2IntroImgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: auto;
+}
+.cq2IntroSec2{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.cq2IntroSec2 h1{
+    font-size: 2em;
+}
+.cq2IntroSec2 h4{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.cq2Btn{
+    margin-top: auto;
+    margin-left: auto;
+    padding: 1rem 1rem;
+    border: none;
+    background-color: var(--qBlue);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 40%;
+}
+.cq2Btn:hover{
+    transform: scale(98%);
+}
+.cq2Details{
+    margin: 3rem 0;
+    background-color:rgb(246, 246, 246);
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+.cq2Details span{
+    font-weight: 600;
+}
+.cq2QuestionsSection{
+    background-color: var(--qFlowBg);
+    border-radius: 0.4rem;
+    padding: 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cq2AddQuestionBtn{
+    margin-top: 3rem;
+    padding: 1rem 1rem;
+    border: none;
+    background-color: var(--qBlue);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cq2AddQuestionBtn:hover{
+    transform: scale(98%);
+}
+.cq2QuestionBox{
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+    margin-top: 3rem;
+    padding-bottom: 0.7rem;
+    padding-top: 1rem;
+
+}
+.cq2-qb-sec1{
+    border-top-right-radius: 0.2rem;
+    border-top-left-radius: 0.2rem;
+    display: none;
+    justify-content: center;
+    cursor: move;
+}
+.cq2-qb-sec1:hover .cq2-qb-drag-icon{
+    visibility: visible;
+}
+.cq2-qb-drag-icon{
+    visibility: hidden;
+    color: rgba(0, 0, 0, 0.539);
+}
+.cq2-qb-sec2{
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    /* align-items: center; */
+    gap: 2rem;
+}
+.cq2-qb-sec2 textarea{
+    resize: none;
+    border: none;
+    border-radius: 0;
+    width: 55%;
+    padding: 0rem 1rem;
+    overflow-wrap: break-word;
+    font-size: 1.2rem;
+}
+.cq2-qb-sec2 textarea::-webkit-scrollbar{
+    width: 0;
+}
+.cq2-qb-sec2 textarea:focus{
+    background-color: var(--qFlowBg);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--qBlue);
+}
+.cq2-qb-sec2Icons{
+    visibility: hidden;
+}
+.cq2-qb-sec2-selectBox{
+    width: 28%;
+    display: none;
+}
+.cq2-qb-sec2-selectBox-select{
+    border-radius: 0.1rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+select.cq2-qb-sec2-selectBox-select:focus {
+    background-repeat: no-repeat;
+    outline: 0;
+}
+.cq2-qb-sec3{
+    width: 100%;
+    /* background-color: red; */
+}
+.cq2-ot-checkbox-options{
+    display: flex;
+    align-items: center;
+    margin: 0rem 0;
+}
+
+.cq2-ot-checkbox-options-hold{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0rem;
+    cursor: move;
+}
+.cq2-ot-checkbox-options input[type="text"]{
+    width: 80%;
+    padding: 0.5rem 0rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid transparent;
+    border-radius: 0;
+    margin: 0 1rem;
+}
+.cq2-qb-option-del{
+    visibility: hidden;
+    cursor: pointer;
+}
+.cq2-ot-checkbox-options input[type="text"]:focus{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid var(--qBlue);
+
+}
+.cq2-ot-checkbox-options:hover .cq2-qb-drag-icon{
+    visibility: visible;
+}
+.cq2-ot-checkbox-options:hover input[type="text"]{
+    border-bottom: 1px solid black;
+}
+.cq2-ot-checkbox-options:hover .cq2-qb-option-del{
+    visibility: visible;
+}
+.cq2-ot-checkbox-options-add{
+    display: none;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 3rem;
+    color: rgba(0, 0, 0, 0.539);
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.cq2-qb-sec4{
+    display: none;
+    margin: 2rem 1rem;
+    margin-bottom: 0;
+    padding: 1rem 0;
+    border-top: 1px solid black;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}   
+.cq2QuestionBox:hover textarea{
+    background-color: rgb(246, 246, 246);
+    border-bottom: 1px solid black;
+    padding: 1rem 1rem;
+}
+.cq2QuestionBox:hover .cq2-qb-sec2Icons{
+    visibility: visible;
+}
+.cq2QuestionBox:hover .cq2-qb-sec2-selectBox{
+    display: block;
+}
+.cq2QuestionBox:hover .cq2-ot-checkbox-options{
+    margin: 1rem 0;
+}
+.cq2QuestionBox:hover .cq2-ot-checkbox-options-add{
+    display: flex;
+}
+.cq2QuestionBox:hover .cq2-qb-sec4{
+    display: flex;
+}
+.cq2QuestionBox:hover .cq2-qb-sec1{
+    display: flex;
+}
+.cq2QuestionBox:hover{
+    padding-bottom: 0rem ;
+    padding-top: 0rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.491);
+}

@@ -1,0 +1,25 @@
+.mainTable{
+    width: 100%;
+    font-size: 1.2rem;
+    border-spacing:  0 1rem;
+    height: auto;
+}
+.mainTableHeadingCells{
+    background-color: rgb(223, 237, 250);
+    font-size: 1.3rem;
+    padding: 1rem 0.5rem;
+
+}
+.mainTableDataRows{
+    background-color: rgb(246, 246, 246);
+    transition: all 0.2s ease-in-out;
+}
+.mainTableDataRowsHoverClass:hover{
+    transform: scale(105%);
+    cursor: pointer;
+
+}
+.mainTableDataCells{
+    text-align: center;
+    padding: 1rem 0;
+}

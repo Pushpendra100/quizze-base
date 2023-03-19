@@ -1,0 +1,128 @@
+.registerBox{
+    background-color: var(--qFlowBg);
+    width: 90%;
+    padding: 2rem 2rem;
+    margin: 2rem auto;
+    position: relative;
+}
+.registerHeading{
+    display: flex;
+    align-items: end;
+}
+.registerHeading h1{
+    font-family: "Snowburst One";
+    
+}
+.registerHeading span{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.regSection{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+}
+.regSec1{
+    flex: 1;
+    border-right: 1px solid black;
+    padding-bottom: 3rem;
+
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+.registerForm label{
+    margin-top: 2rem;
+}
+.registerForm label span{
+    color: var(--qBlue);
+}
+.registerForm input[type=email]{
+    padding: 1rem 1rem;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    margin-top: 0.2rem;
+}
+.registerForm input[type=submit]{
+    padding: 1rem 1rem;
+    border: none;
+    background-color: var(--qBlue);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.registerForm input[type=submit]:hover{
+    transform: scale(98%);
+}
+.regSec2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.registerLine{
+    border-top: 1px solid black;
+    width: 70%;
+    margin:2rem auto;
+}
+.btnGoogleRegister{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    width: 80%;
+    margin:0 auto;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.btnGoogleRegister span{
+    margin-left: 0.7rem;
+}
+.btnGoogleRegister:hover{
+    background-color: white;
+    border: 1px solid white;
+}
+.btnRegister{
+    padding: 1rem 1rem;
+    border: none;
+    background-color: var(--qBlue);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 80%;
+}
+.btnRegister:hover{
+    transform: scale(98%);
+}
+.btnRegister:disabled{
+    background-color: var(--qFlowBg);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+.registerLogin{
+    margin-top: 1.3rem;
+    text-align: center;
+}
+.registerLoginLink{
+    color: var(--qBlue);
+    text-decoration: none;
+}
+.registerLoginLink:hover{
+    text-decoration: underline;
+}

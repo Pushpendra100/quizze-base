@@ -1,0 +1,27 @@
+.sideBar{
+    position: sticky;
+    top: 12vh;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+}
+.sideIcons{
+    padding-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.sideIconsLinkDiv{
+    padding: 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.sideIconsLinkDiv span{
+    font-size: 0.8rem;
+}
+.sideIconsLinkActive{
+    background-color: var(--qBlue);
+    color: white;
+}

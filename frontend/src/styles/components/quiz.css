@@ -1,0 +1,170 @@
+.quizIntro{
+    width: 100%;
+    display: flex;
+}
+.quizIntroSec1{
+    width: 30%;
+}
+.quizIntroImgContainer{
+    width: 17rem;
+    height: 17rem;
+    border: 2px solid var(--qFlowBg);
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.quizIntroImgContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.quizIntroSec2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.quizIntroSec2 h1{
+    font-size: 2em;
+}
+.quizIntroSec2 h4{
+    color: rgba(0, 0, 0, 0.7);
+}
+.quizIntroSec2 h6{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0.2rem;
+}
+.quizIntroSec2 h5{
+    color: #007E49;
+    margin-top: auto;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.quizIntroSec3{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.quizIntroSec3Box{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+}
+.quizIntroSec3Box div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.3rem;
+}
+.quizIntroSec3Icon{
+    cursor: pointer;
+}
+.quizIntroSec3Box span{
+    user-select: none;
+}
+.startQuizBtn{
+    padding: 1rem 1rem;
+    border: none;
+    background-color: var(--qBlue);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+}
+.startQuizBtn:hover{
+    transform: scale(98%);
+}
+.quizDetails{
+    margin: 2rem 0;
+    margin-bottom: 3rem;
+}
+.quizDescription{
+    margin-top: 1rem;
+    background-color:rgb(246, 246, 246);
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+.quizDescription span{
+    font-weight: 600;
+}
+.quizExtrasOptions{
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.quizExtrasOptionsBtn{
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom: 4px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+.quizExtrasOptionsBtnActive{
+    border-bottom: 4px solid var(--qBlue);
+}
+.quizCommentContainer{
+    width: 100%;
+}
+.quizComment{
+    width: 100%;
+    display: flex;
+    margin: 1.5rem 0;
+    gap: 0.7rem;
+}
+.quizCommentSec1ImgContainer{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.quizCommentSec1ImgContainer > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.quizCommentSec2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.quizCommentHeading{
+    display: flex;
+    align-items: flex-end;
+    gap: 0.4rem;
+}
+.quizCommentHeading h5{
+    font-size: 1.4rem;
+}
+.quizCommentHeading span{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+}
+.quizCommentPara p{
+    font-size: 1.2rem;
+}
+.quizCommentLandD{
+    width: 50%;
+    display: flex;
+    gap: 1.4rem;
+    margin-top: 0.5rem;
+}
+.quizCommentLandDBox{
+    display: flex;
+    gap: 0.3rem;
+}
+.quizCommentLandDIcon{
+    cursor: pointer;
+}
+.quizCommentLandDBox span{
+    user-select: none;
+    font-size: 1.2rem;
+}
